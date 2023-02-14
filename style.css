@@ -1,0 +1,214 @@
+@font-face{
+    font-family: So Do Sans RE;
+    src:url(fonts/SoDoSans-Regular.fb96a065.woff);
+}
+@font-face{
+    font-family: So Do Sans Bo;
+    src:url(fonts/SoDoSans-Bold.49f6eaa3.woff);
+}
+@font-face{
+    font-family: So Do Sans SB;
+    src:url(fonts/SoDoSans-SemiBold.6aebdeb6.woff);
+}
+body{
+    margin:0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100vw;
+    margin:0;
+    padding:0;
+    border-bottom: 1px solid black;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+header img{
+    margin:0;
+    padding:35px 25px;
+}
+header nav{
+    display: flex;
+    width:97%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    margin-right: 35px;
+}
+#first-menu li{
+    padding-top: 55px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 40px 0px;
+    margin:0 10px;
+    font-size: 16px;
+    font-family:So Do Sans Bo;
+    font-weight: 400;
+    line-height:1.5;
+}
+nav ul li:hover{
+    color:green;
+}
+#join{
+    background-color: black;
+    color:aliceblue;
+    outline-style: none;
+    width:90px;
+    height:40px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 50px;
+}
+#sign{
+    background-color: aliceblue;
+    color: black;
+    outline-style: none;
+    height:40px;
+    width:70px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+}
+section{
+    display: flex;
+    width:100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color: rgb(193, 226, 211);
+}
+.side-text{
+    display: flex;
+    width:50vw;
+    color:#1e3932;
+    height:370px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.side-text button{
+    height:35px;
+    width:135px;
+    font-family:So Do Sans SB;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(193, 226, 211);
+    color:#1e3932;
+    border-color: #1e3932;
+    border-style:inset;
+    border-radius: 20px;
+}
+.side-text h1{
+    font-family:So Do Sans SB;
+}
+.side-text p{
+    font-family:So Do Sans RE;
+    font-size: 20px;
+    margin:50px 0;
+}
+.side-text button:hover{
+    background-color: rgb(161, 185, 174);
+}
+.side-image img{
+    width:50vw;
+    height:370px;
+    margin:0;
+    padding: 0;
+}
+.other img{
+    height:500px;
+}
+.last-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last-text p{
+    font-family:So Do Sans RE;
+    font-size: 19px;
+}
+.ls p{
+    font-family:So Do Sans RE;
+    font-size: 14px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:20px;
+
+}
+#foot-sep {
+    display:flex;
+    justify-content: center;
+    width:100vw;
+    
+}
+#foot-sep p{
+    width:100vw;
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    width: 93vw;
+}
+footer div{
+    display:flex;
+    flex-direction: row;
+    font-family: So Do Sans RE;
+   
+}
+#listln{
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+footer div dl dt{
+    margin:20px 20px ;
+    font-size: 19px;
+
+}
+footer div dl dd{
+    margin:35px 20px ;
+    font-size: 16px;
+    color: rgba(126, 126, 126, 0.89);
+}
+footer ul{
+    display: flex;
+    align-self: flex-start;
+    list-style-type: none;
+    margin:40px 0px;
+}
+footer ul li{
+    display: flex;
+    padding:7px;
+    border-radius: 90px;
+}
+footer ul li:hover{
+    background-color: rgba(212, 212, 212, 0.89);
+    transition: 0.2s cubic-bezier();
+}
+footer table td{
+    margin:0;
+    padding:0 20px;
+    border-right: 2px solid rgba(87, 87, 87, 0.74);
+}
+footer div p{
+    color:rgba(126, 126, 126, 0.89);
+    font-size:14px;
+    padding: 10px 0 40px 0;
+}
