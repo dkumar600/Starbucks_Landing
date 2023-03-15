@@ -68,6 +68,7 @@ nav ul li{
 }
 nav ul li:hover{
     color:green;
+    cursor: pointer;
 }
 #join{
     background-color: black;
