@@ -40,11 +40,21 @@ header nav{
     flex-direction: row;
     justify-content: space-between;
 }
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 ul{
     margin-right: 35px;
 }
 #first-menu li{
     padding-top: 55px;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 nav ul li{
     display: inline-block;
@@ -69,8 +79,12 @@ nav ul li:hover{
     border-style: none;
     border-radius: 50px;
 }
+#join:hover{
+    background-color: rgb(77, 76, 76);
+    cursor: pointer;
+}
 #sign{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     color: black;
     outline-style: none;
     height:40px;
@@ -79,6 +93,10 @@ nav ul li:hover{
     border-style: solid;
     border-color: black;
     border-radius: 50px;
+}
+#sign:hover{
+    background-color: rgba(0,0,0,.06);
+    cursor: pointer;
 }
 section{
     display: flex;
@@ -121,9 +139,11 @@ section{
     font-size: 20px;
     margin:50px 0;
 }
-.side-text button:hover{
+section button:hover{
     background-color: rgb(161, 185, 174);
+    cursor: pointer;
 }
+
 .side-image img{
     width:50vw;
     height:370px;
@@ -180,12 +200,17 @@ footer div{
 footer div dl dt{
     margin:20px 20px ;
     font-size: 19px;
+    cursor: pointer;
 
 }
 footer div dl dd{
     margin:35px 20px ;
     font-size: 16px;
     color: rgba(126, 126, 126, 0.89);
+}
+footer div dl dd:hover{
+    color: rgb(42 42 42 / 89%);
+    cursor:pointer;
 }
 footer ul{
     display: flex;
@@ -211,4 +236,9 @@ footer div p{
     color:rgba(126, 126, 126, 0.89);
     font-size:14px;
     padding: 10px 0 40px 0;
+}
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
